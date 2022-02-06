@@ -6,13 +6,13 @@
 #    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/16 21:05:42 by Lanhild           #+#    #+#              #
-#    Updated: 2022/01/20 17:21:57 by Lanhild          ###   ########.fr        #
+#    Updated: 2022/02/06 18:31:05 by Lanhild          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 pkgname=archlan-cursor-fuschia
 pkgver=1.0
-pkgrel=2
+pkgrel=3
 pkgdesc="Cursor theme for ArchLan"
 url="https://github.com/archlan/archlan-cursors"
 arch=('any')
@@ -31,5 +31,5 @@ prepare() {
 package() {
 	local _cursorsdir=${pkgdir}/usr/share/icons
 	mkdir -p "$_cursorsdir"
-	cp -r ${srcdir}/* "$_cursorsdir"
+	cp -rf ${srcdir}/* "$_cursorsdir"
 }

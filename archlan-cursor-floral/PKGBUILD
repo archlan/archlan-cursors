@@ -5,14 +5,14 @@
 #                                                     +:+ +:+         +:+      #
 #    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/01/16 20:35:29 by Lanhild           #+#    #+#              #
-#    Updated: 2022/02/06 18:31:09 by Lanhild          ###   ########.fr        #
+#    Created: 2022/01/16 21:05:42 by Lanhild           #+#    #+#              #
+#    Updated: 2022/02/06 18:28:00 by Lanhild          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-pkgname=archlan-cursor-luna
+pkgname=archlan-cursor-floral
 pkgver=1.0
-pkgrel=2
+pkgrel=1
 pkgdesc="Cursor theme for ArchLan"
 url="https://github.com/archlan/archlan-cursors"
 arch=('any')
